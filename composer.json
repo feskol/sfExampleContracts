@@ -1,0 +1,21 @@
+{
+  "name": "feskol/sf-example-contracts",
+  "description": "Interfaces for the sfExample project",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Festim Kolgeci",
+      "email": "festim.kolgeci@pm.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FesKol\\SfExampleContract\\": "./src"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "symfony/event-dispatcher": "^6.4|^7.0"
+  }
+}
